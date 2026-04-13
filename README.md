@@ -27,7 +27,7 @@ N/A
 
 Did you get help from any AI Code Assistants?  (Tell us which .cs file to look in for the citation and describe what you learned; also be sure to comment in the .cs per the syllabus instructions)
 
-ChatGPT wrote the "ReadCSV" function - I shared it and asked how to fix the improper parsing.  It also suggested adding the "StringComparer.OrdinalIgnoreCase" to my dictionary file.
+ChatGPT wrote the "ReadCSV" function - I shared it and asked how to fix the improper parsing.  It also suggested adding the "StringComparer.OrdinalIgnoreCase" to my dictionary file.  Finally, I also asked ChatGPT how to retrieve a random element from my "used name" set + how to eliminate the potential for generating a 'fake' name from the real set, and it provided code for Linq.
 
 
 Did you get help from any additional online websites, videos, or tutorials?  (link them here)
@@ -43,6 +43,8 @@ Time complexity - https://github.com/RehanSaeed/.NET-Big-O-Algorithm-Complexity-
 Hash maps - https://dev.to/gkoos/hash-map-deep-dive-2b7p#
 https://www.youtube.com/shorts/QMy6yXf5umI
 
+Hash sets - https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1.contains?view=net-10.0
+
 Stacks - https://codesignal.com/learn/courses/advanced-built-in-data-structures-and-their-usage-2/lessons/stacks-in-csharp
 https://sites.ualberta.ca/~rosanna/books/PDSA/chapter6/stackApps.html#
 
@@ -50,7 +52,9 @@ Queues - https://codesignal.com/learn/courses/fundamental-data-structures-stacks
 
 Structs - https://www.youtube.com/watch?v=e7D8cyfYp0k&t=1s
 
-Country Data - https://github.com/bnokoro/Data-Science/blob/master/countries%20of%20the%20world.csv
+Random Range Syntax - https://docs.unity3d.com/ScriptReference/Random.Range.html
+
+Country Data (ultimately unused) - https://github.com/bnokoro/Data-Science/blob/master/countries%20of%20the%20world.csv
 
 
 What trouble did you have with this project?
