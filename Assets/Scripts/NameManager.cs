@@ -74,7 +74,7 @@ public class NameManager : MonoBehaviour
     void Awake()
     {
         firstNameHolder = new List<string>(firstNames);
-        numbGuesses = firstNameHolder.Count;
+        numbGuesses = firstNameHolder.Count / 2;
     }
 
 
@@ -147,6 +147,8 @@ public class NameManager : MonoBehaviour
         numbGuesses--;
         totalGuesses++;
 
+        Debug.Log($"Remaining guesses: {numbGuesses}");
+
         if (didISteal == usedNames.Contains(nameText.text))
         {
             StartCoroutine(DisplayCorrect());
@@ -198,6 +200,6 @@ public class NameManager : MonoBehaviour
     void EndGameDisplay()
     {
         endGameDisplay.SetActive(true);
-        endGameAccuracy.text = $"{correctGuesses}/{totalGuesses}";
+        endGameAccuracy.text = $"Accuracy: {correctGuesses}/{totalGuesses}";
     }
 }
