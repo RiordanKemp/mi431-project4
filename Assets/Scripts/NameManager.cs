@@ -119,7 +119,6 @@ public class NameManager : MonoBehaviour
             // Real name
             string randomName;
             do {
-            // Real name from the set
             int index = Random.Range(0, usedNames.Count);
             randomName = usedNames.ElementAt(index);
             nameText.text = randomName;
@@ -127,9 +126,9 @@ public class NameManager : MonoBehaviour
         }
         else
         {
+            // Random Name
             string fullName;
-            // Random name
-            do{
+            do {
             int rand = Random.Range(0, firstNameHolder.Count);
             int rand2 = Random.Range(0, lastNames.Count);
 
