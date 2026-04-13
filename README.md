@@ -44,6 +44,7 @@ Hash maps - https://dev.to/gkoos/hash-map-deep-dive-2b7p#
 https://www.youtube.com/shorts/QMy6yXf5umI
 
 Stacks - https://codesignal.com/learn/courses/advanced-built-in-data-structures-and-their-usage-2/lessons/stacks-in-csharp
+https://sites.ualberta.ca/~rosanna/books/PDSA/chapter6/stackApps.html#
 
 Queues - https://codesignal.com/learn/courses/fundamental-data-structures-stacks-and-queues-in-csharp/lessons/queues-concepts-and-implementation-in-csharp
 
