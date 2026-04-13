@@ -13,11 +13,11 @@ https://www.youtube.com/watch?v=O9v10jQkm5c
 
 What did you do for this project?
 
-Created examples for use cases of arrays + dictionaries + sets, organizing a list, and 
+Created examples for use cases of queues + stacks + dictionaries + sets, and reviewed documentation for coding concepts (pointers/references, contiguous memory, subclassing) which were brought up in the text but not directly applicable in C#.
 
 Any assets used that you didn't create yourself?  (art, music, etc. Just tell us where you got it, link it here) 
 
-N/A
+"Hello my name is" asset - https://t3.ftcdn.net/jpg/03/40/84/30/360_F_340843027_FCQXqEQWpeJW343U9TNrhx9l3tQa6xrC.jpg
 
 
 Did you receive help from anyone outside this class?  (list their names and what they helped with)
@@ -27,7 +27,7 @@ N/A
 
 Did you get help from any AI Code Assistants?  (Tell us which .cs file to look in for the citation and describe what you learned; also be sure to comment in the .cs per the syllabus instructions)
 
-TEXT
+ChatGPT wrote the "ReadCSV" function - I shared it and asked how to fix the improper parsing.  It also suggested adding the "StringComparer.OrdinalIgnoreCase" to my dictionary file.
 
 
 Did you get help from any additional online websites, videos, or tutorials?  (link them here)
@@ -49,6 +49,8 @@ https://sites.ualberta.ca/~rosanna/books/PDSA/chapter6/stackApps.html#
 Queues - https://codesignal.com/learn/courses/fundamental-data-structures-stacks-and-queues-in-csharp/lessons/queues-concepts-and-implementation-in-csharp
 
 Structs - https://www.youtube.com/watch?v=e7D8cyfYp0k&t=1s
+
+Country Data - https://github.com/bnokoro/Data-Science/blob/master/countries%20of%20the%20world.csv
 
 
 What trouble did you have with this project?
